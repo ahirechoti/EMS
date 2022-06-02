@@ -1,5 +1,5 @@
 # EMS
-Core java EMS sample project.
+Core java EMS sample project. This project includes configurable logger function and CLI based execution. Hope this helps.
 
 create DB EMS and tables as 
 
