@@ -1,0 +1,30 @@
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T14:25:58.058Z] [com.simplilearn.EMS.EMSApplication] [main] [251] [ERROR] Invalid action input.
+[2022-05-25T14:25:58.058Z] [com.simplilearn.EMS.EMSApplication] [main] [251] [ERROR] Invalid action input.
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T14:43:46.046Z] [com.simplilearn.EMS.Employees] [main] [80] [INFO ] com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE employees set FIRSTNAME= 'suresh' , LASTNAME = 'jhaa'  dob = '1998-05-13', email = 'suresh.jhaa@gmail.com', department_id = 1 WHERE empid = 2 
+[2022-05-25T14:43:46.046Z] [com.simplilearn.EMS.Employees] [main] [85] [ERROR] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dob = '1998-05-13', email = 'suresh.jhaa@gmail.com', department_id = 1 WHERE emp' at line 1
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:12:57.057Z] [com.simplilearn.EMS.Employees] [main] [41] [ERROR] Every derived table must have its own alias
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:14:11.011Z] [com.simplilearn.EMS.Employees] [main] [41] [ERROR] Duplicate column name 'byaa'
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:16:04.004Z] [com.simplilearn.EMS.Employees] [main] [41] [ERROR] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''password' as PASSWORD_ID, (SELECT department_nm from department where departmen' at line 1
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:18:21.021Z] [com.simplilearn.EMS.Employees] [main] [41] [ERROR] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''password' as PASSWORD_ID, (SELECT department_nm from department where departmen' at line 1
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:20:48.048Z] [com.simplilearn.EMS.Employees] [main] [41] [ERROR] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''password' as PASSWORD_ID, SELECT department_nm from department where department' at line 1
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:22:09.009Z] [com.simplilearn.EMS.Employees] [main] [42] [ERROR] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''password' as PASSWORD_ID, SELECT department_nm from department where department' at line 1
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:36:52.052Z] [com.simplilearn.EMS.Employees] [main] [41] [ERROR] Parameter index out of range (2 > number of parameters, which is 1).
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T15:40:38.038Z] [com.simplilearn.EMS.Employees] [main] [40] [ERROR] You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'employees as em inner join department as dep ) as tmp' at line 1
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+#logback.classic pattern: [%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%C] [%t] [%L] [%-5p] %msg%n
+[2022-05-25T16:01:28.028Z] [com.simplilearn.EMS.EMSApplication] [main] [93] [ERROR] Only admin can perform this action.
+[2022-05-25T16:01:34.034Z] [com.simplilearn.EMS.EMSApplication] [main] [101] [ERROR] Only admin can perform this action.
